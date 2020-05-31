@@ -98,8 +98,10 @@ public class InterfazLexSint extends JFrame {
 		JTextArea textArea = new JTextArea();
 		textArea.setBounds(44, 96, 720, 420);
 		contentPane.add(textArea);
+
 		
 		JButton btnAbrir = new JButton("Abrir");
+		
 		btnAbrir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(seleccionar.showDialog(null, "Abrir")==JFileChooser.APPROVE_OPTION) {
@@ -119,6 +121,7 @@ public class InterfazLexSint extends JFrame {
 		contentPane.add(btnAbrir);
 		
 		JButton btnGuardar = new JButton("Guardar");
+		
 		btnGuardar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(seleccionar.showDialog(null, "Guardar")==JFileChooser.APPROVE_OPTION) {
@@ -133,7 +136,6 @@ public class InterfazLexSint extends JFrame {
 						}
 					}else {
 						JOptionPane.showMessageDialog(null, "Guardar Documento de Texto");
-						
 					}
 				}
 			}
@@ -142,6 +144,15 @@ public class InterfazLexSint extends JFrame {
 		contentPane.add(btnGuardar);
 		
 		JButton btnAnalizar = new JButton("Analizar");
+		btnAnalizar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String Documento = textArea.getText();
+				
+				
+				
+				
+			}
+		});
 		btnAnalizar.setBounds(413, 529, 351, 30);
 		contentPane.add(btnAnalizar);
 	}
