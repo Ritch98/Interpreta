@@ -1312,14 +1312,14 @@ FOR : 'for';
 IF : 'if';
 GOTO : 'goto';
 IMPLEMENTS : 'implements';
-IMPORT : 'import';
+//i
 INSTANCEOF : 'instanceof';
 INT : 'int';
 INTERFACE : 'interface';
 LONG : 'long';
 NATIVE : 'native';
 NEW : 'new';
-PACKAGE : 'package';
+//p
 PRIVATE : 'private';
 PROTECTED : 'protected';
 PUBLIC : 'public';

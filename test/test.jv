@@ -1,10 +1,4 @@
-/* package Hola;
-
-import java.util.*;
-import java.io.*;
-*/
-
-class Ciclos{
+class Mamalon{
 
   public static void main(String[] args) {
     Scanner lectura = new Scanner(System.in);
