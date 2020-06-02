@@ -1,4 +1,8 @@
-class Mamalon{
+package prueba;
+
+import libreria;
+
+public class Clase{
 
   public static void main(String[] args) {
     Scanner lectura = new Scanner(System.in);
@@ -9,7 +13,8 @@ class Mamalon{
       arr[i] = lectura.nextInt();
 
     for(int x : arr)
-    System.out.println(x);
+    	System.out.println(y);
+    	
   }
 
 }
